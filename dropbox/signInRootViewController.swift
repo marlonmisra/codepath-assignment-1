@@ -12,7 +12,8 @@ class signInRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        performSegueWithIdentifier("secondSignInSegue", sender: self)
+        
         // Do any additional setup after loading the view.
     }
 

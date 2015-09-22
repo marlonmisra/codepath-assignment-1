@@ -8,7 +8,9 @@
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class createAccountViewController: UIViewController
+
+    {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,10 @@ class createAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onBack(sender: AnyObject) {
+    
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     /*
     // MARK: - Navigation
