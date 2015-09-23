@@ -18,6 +18,9 @@
 		B52F11F91BAC8BB000AB31CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52F11F71BAC8BB000AB31CA /* LaunchScreen.storyboard */; };
 		B52F12041BAC8BB000AB31CA /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F12031BAC8BB000AB31CA /* dropboxTests.swift */; };
 		B52F120F1BAC8BB000AB31CA /* dropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F120E1BAC8BB000AB31CA /* dropboxUITests.swift */; };
+		B579A1CB1BB24DB1004606D6 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579A1CA1BB24DB1004606D6 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B579A1CD1BB25052004606D6 /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579A1CC1BB25052004606D6 /* TroubleViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B579A1CF1BB2566C004606D6 /* NewAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579A1CE1BB2566C004606D6 /* NewAccountSettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		B52F120A1BAC8BB000AB31CA /* dropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52F120E1BAC8BB000AB31CA /* dropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxUITests.swift; sourceTree = "<group>"; };
 		B52F12101BAC8BB000AB31CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B579A1CA1BB24DB1004606D6 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		B579A1CC1BB25052004606D6 /* TroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
+		B579A1CE1BB2566C004606D6 /* NewAccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				B52F11EE1BAC8BB000AB31CA /* AppDelegate.swift */,
 				B52F11F01BAC8BB000AB31CA /* ViewController.swift */,
 				B52F11F21BAC8BB000AB31CA /* Main.storyboard */,
+				B579A1CE1BB2566C004606D6 /* NewAccountSettingsViewController.swift */,
+				B579A1CC1BB25052004606D6 /* TroubleViewController.swift */,
+				B579A1CA1BB24DB1004606D6 /* TermsViewController.swift */,
 				3744D5A51BB1203600FA6FDB /* createAccountRootViewController.swift */,
 				3744D5A71BB1204400FA6FDB /* signInRootViewController.swift */,
 				3744D5A31BB1201600FA6FDB /* signInViewController.swift */,
@@ -269,10 +278,13 @@
 			files = (
 				3744D5A41BB1201600FA6FDB /* signInViewController.swift in Sources */,
 				3744D5A21BB11FF800FA6FDB /* createAccountViewController.swift in Sources */,
+				B579A1CD1BB25052004606D6 /* TroubleViewController.swift in Sources */,
 				B52F11F11BAC8BB000AB31CA /* ViewController.swift in Sources */,
 				B52F11EF1BAC8BB000AB31CA /* AppDelegate.swift in Sources */,
 				3744D5A81BB1204400FA6FDB /* signInRootViewController.swift in Sources */,
 				3744D5A61BB1203600FA6FDB /* createAccountRootViewController.swift in Sources */,
+				B579A1CF1BB2566C004606D6 /* NewAccountSettingsViewController.swift in Sources */,
+				B579A1CB1BB24DB1004606D6 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,8 +23,7 @@ class signInViewController: UIViewController {
     
     
     @IBAction func onBack(sender: AnyObject) {
-        print("Button was pressed")
-        
+        navigationController!.popViewControllerAnimated(true)
     }
 
     /*

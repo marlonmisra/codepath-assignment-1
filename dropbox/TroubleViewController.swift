@@ -1,17 +1,20 @@
 //
-//  createAccountViewController.swift
+//  TroubleViewController.swift
 //  dropbox
 //
-//  Created by Marlon Misra on 2015-09-21.
+//  Created by Marlon Misra on 9/22/15.
 //  Copyright © 2015 Marlon Misra. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController
+class TroubleViewController: UIViewController {
 
-    {
-
+    @IBAction func onCancel(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,9 +26,6 @@ class createAccountViewController: UIViewController
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onBack(sender: AnyObject) {
-        navigationController!.popViewControllerAnimated(true)
-    }
 
     /*
     // MARK: - Navigation
